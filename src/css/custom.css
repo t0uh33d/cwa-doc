@@ -1,0 +1,22 @@
+:root {
+  --ifm-color-primary: #4ebef4; /* Your new primary color */
+  --ifm-color-primary-dark: #44a6d8; /* Darker than primary */
+  --ifm-color-primary-darker: #3e96c8; /* Even darker */
+  --ifm-color-primary-darkest: #3786b8; /* The darkest variant */
+  --ifm-color-primary-light: #5ec2f8; /* Lighter than primary */
+  --ifm-color-primary-lighter: #6eccfc; /* Even lighter */
+  --ifm-color-primary-lightest: #7ed6ff; /* The lightest variant */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4ebef4; /* Same primary color for dark mode */
+  --ifm-color-primary-dark: #44a6d8; /* Adjusted for dark mode */
+  --ifm-color-primary-darker: #3e96c8; /* Adjusted for dark mode */
+  --ifm-color-primary-darkest: #3786b8; /* Adjusted for dark mode */
+  --ifm-color-primary-light: #5ec2f8; /* Brighter for readability in dark mode */
+  --ifm-color-primary-lighter: #6eccfc; /* Adjusted for dark mode */
+  --ifm-color-primary-lightest: #7ed6ff; /* Brightest variant for dark mode */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
