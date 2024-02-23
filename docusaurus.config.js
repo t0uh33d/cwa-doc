@@ -67,7 +67,7 @@ const config = {
         defaultMode: 'dark',
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/cwa-share-card.webp',
       navbar: {
         title: 'Codewave Accelerator',
         logo: {
@@ -145,7 +145,7 @@ const config = {
         require.resolve("@cmfcmf/docusaurus-search-local"),
         {
           // Options here
-          style: "none",
+          // style: "none",
         },
       ],
     ],
